@@ -108,7 +108,9 @@ onMounted(load)
         </div>
 
         <div class="service-actions">
-          <button class="btn btn-ghost btn-sm" @click="openChargeForm(service)">Gerar cobrança do mês</button>
+          <button v-if="service.status === 'ativo'" class="btn btn-ghost btn-sm" @click="openChargeForm(service)">
+            Gerar cobrança do mês
+          </button>
           <button class="btn btn-ghost btn-sm danger" @click="remove(service.id)">Remover</button>
         </div>
 

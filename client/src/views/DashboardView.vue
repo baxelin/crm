@@ -192,7 +192,7 @@ onMounted(load)
   background: var(--color-surface);
   border: 1px solid var(--color-border-soft);
   border-radius: var(--radius-lg);
-  padding: 14px;
+  padding: 12px;
   min-height: 260px;
   box-shadow: var(--shadow-sm);
   display: flex;
@@ -267,9 +267,9 @@ onMounted(load)
 .task-item {
   display: flex;
   align-items: flex-start;
-  gap: 8px;
+  gap: 6px;
   border-radius: var(--radius-sm);
-  padding: 8px;
+  padding: 6px;
   transition: background 0.15s ease;
 }
 
@@ -302,7 +302,8 @@ onMounted(load)
   font-size: 13px;
   font-weight: 600;
   color: var(--color-text);
-  word-break: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
   line-height: 1.3;
 }
 
