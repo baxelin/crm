@@ -11,6 +11,23 @@
 
 Aplicação full-stack para pequenas agências de serviços digitais (sites, marketing e social media) acompanharem o ciclo completo de um cliente: do primeiro contato como **lead** até as **cobranças recorrentes**, passando pelo histórico de conversas e pela agenda da semana.
 
+![Dashboard com agenda semanal e alertas de pagamento](docs/screenshots/dashboard.png)
+
+## Telas
+
+| Contatos | Finanças |
+| -------- | -------- |
+| ![Lista de contatos com busca e filtro por status](docs/screenshots/contatos.png) | ![Resumo financeiro do mês e lista de pagamentos](docs/screenshots/financas.png) |
+
+<details>
+<summary>Perfil do contato (dados, interações, serviços, pagamentos e tarefas)</summary>
+
+![Perfil de um cliente](docs/screenshots/perfil-contato.png)
+
+</details>
+
+> As telas usam os dados fictícios do `seed`.
+
 ## Funcionalidades
 
 - **Dashboard semanal**: agenda dos próximos 7 dias e alertas de pagamentos atrasados ou prestes a vencer.

@@ -13,6 +13,23 @@ A full-stack app that helps small digital agencies (websites, marketing and soci
 
 > The user interface is in Brazilian Portuguese.
 
+![Dashboard with the weekly schedule and payment alerts](docs/screenshots/dashboard.png)
+
+## Screenshots
+
+| Contacts | Finances |
+| -------- | -------- |
+| ![Contact list with search and status filter](docs/screenshots/contatos.png) | ![Monthly revenue summary and payment list](docs/screenshots/financas.png) |
+
+<details>
+<summary>Contact profile (details, interactions, services, payments and tasks)</summary>
+
+![Client profile](docs/screenshots/perfil-contato.png)
+
+</details>
+
+> Screenshots use the fake data from the seed script.
+
 ## Features
 
 - **Weekly dashboard**: a 7-day schedule plus alerts for overdue and upcoming payments.
